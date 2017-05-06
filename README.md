@@ -4,6 +4,7 @@
 
 ## 开发步骤
 
+0. 第一次下载本环境，请不要忘记 `npm i`
 1. 在src下创建react的js文件
 2. 在 ./ 下执行 `npm start`
 3. 在 `./build` 下找js同名的html文件查看效果
@@ -24,17 +25,13 @@
     - [ECMAScript 6 - 阮一峰](http://es6.ruanyifeng.com/)
     - [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
 
-## npm安装
-
-用到如下包
+## npm用到的包
 
 ```
 npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-es2015 babel-preset-react react react-dom webpack-dev-server webpack
 ```
 
 ## 指令
-
-可在`package.json`文件中查看
 
 - npm start         监听方式自动编译开发代码
 - npm run server    localhost:8080本地www服务
