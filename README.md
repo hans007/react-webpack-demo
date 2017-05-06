@@ -12,7 +12,7 @@
 ## 注意事项
 
 - 公共组件请写在 `./component`
-- 如果组件只是js文件中使用 就直接写在当前js中
+- 如果组件其它js没用到，就直接写在当前js中，需要的时候再抽取出单独文件
 - 第三方组件库放在 `./vendor` 如(react-redux、redux、react-router、redux-thunk)
 - `./build/common.js` 文件是编译自动抽取的公共库文件 请不要删除
 
