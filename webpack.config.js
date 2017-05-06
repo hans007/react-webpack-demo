@@ -9,8 +9,8 @@ var dirListArray = webpackHelper.getDirlistArray(__dirname+'/src/');
 var entry = webpackHelper.getEntry(dirListArray);
 //console.log(entry);
 
-// 根据模板在build下创建呈现html
-webpackHelper.createHtml(__dirname + '/src/tpl/page.html',dirListArray);
+// 根据模板在build目录下创建可查看的html
+webpackHelper.createHtml(__dirname + '/tpl/page.html',dirListArray);
 
 // webpack config
 module.exports = {
