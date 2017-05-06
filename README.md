@@ -15,6 +15,15 @@
 - 第三方组件库放在 `./vendor` 如(react-redux、redux、react-router、redux-thunk)
 - `./build/common.js` 文件是编译自动抽取的公共库文件 请不要删除
 
+## 学习参考文推荐
+
+不分先后，陆续整理中...
+
+- 语法基础
+    - [ES6 编码规范](https://github.com/yuche/javascript)
+    - [ECMAScript 6 - 阮一峰](http://es6.ruanyifeng.com/)
+    - [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
+
 ## npm安装
 
 用到如下包
@@ -36,7 +45,7 @@ npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-es2
 
 ```
 ├── build                           编译生成目录
-│   ├── 01-helloword.js             编译后的js
+│   ├── 01-helloword.js             编译后的js
 │   ├── 01-helloword.html           与js同名的可查看html文件
 │   └── common.js                   编译抽取的公共库文件
 ├── src                             es6源码
@@ -53,10 +62,3 @@ npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-es2
 └── webpack.config.js               webpack配置
 ```
 
-## 参考文推荐
-
-不分先后
-
-- [ES6 编码规范](https://github.com/yuche/javascript)
-- [ECMAScript 6 - 阮一峰](http://es6.ruanyifeng.com/)
-- [React/React Native 的ES5 ES6写法对照表](http://bbs.reactnative.cn/topic/15/react-react-native-%E7%9A%84es5-es6%E5%86%99%E6%B3%95%E5%AF%B9%E7%85%A7%E8%A1%A8)
